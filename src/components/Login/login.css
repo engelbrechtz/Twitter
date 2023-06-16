@@ -1,0 +1,55 @@
+@import "../../styles/colors.css";
+
+body {
+  font-family: sans-serif;
+}
+
+.auth .auth_content {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.auth .auth_content img {
+  width: 40px;
+  margin: auto;
+  text-align: center;
+}
+
+.auth .auth_content h1 {
+}
+
+.auth .auth_content .input_boxes {
+  display: flex;
+  width: 200px;
+}
+
+.auth .auth_content .input_boxes input {
+  width: 400px;
+  height: 40px;
+  margin-top: 10px;
+  line-height: 5px;
+}
+
+.auth .auth_content form button[type="submit"] {
+  background: var(--background-color);
+  border: none;
+  outline: none;
+  padding: 14px;
+  margin-top: 30px;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 100px;
+}
+
+.auth .auth_content form button[type="submit"]:hover {
+  background: grey;
+}
+
+form p {
+  color: grey;
+  line-height: 20px;
+  font-size: 14px;
+}

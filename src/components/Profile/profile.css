@@ -1,0 +1,28 @@
+@import "../../styles/colors.css";
+
+.profile {
+}
+
+.profile .profile_content {
+}
+
+.profile .profile_content .profile_banner {
+}
+
+.profile .profile_content .users_profile {
+}
+
+.profile .profile_content .users_profile button {
+  background: var(--background-color);
+  width: 100px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 100px;
+  cursor: pointer;
+  color: white;
+}
+
+.profile .profile_content .users_profile button:hover {
+  background: black;
+}
